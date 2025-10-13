@@ -564,3 +564,28 @@ git commit -m "ADD: Añadiendo script"
 git push
 history
 history -a
+cp ~/.bash_history ./Historial_comandos_Luque.txt
+git add .
+git commit -m "ADD: Historial de comandos de Luque"
+git push
+cat readme
+cat READM
+cat README
+cd README
+cat README.cd
+cat README.md
+cat << FIN> README.md
+TP_AySO
+
+Alumno: Jazmin Luque
+División: 116
+Turno: Mañana
+FIN
+
+git add .
+git add README.md
+git commit -m "ADD:README con datos del alumno"
+git push
+git push origin main --force
+history
+history -a
